@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% block title %}
+    FAQ
+{% endblock %}
+
+{% block content %}
+    <div class="faq d-flex  justify-content-center w-100 ">
+        <div class="faq_section flex-column mt-5">
+            <div class="d-flex justify-content-center my-3 rounded">
+                <h2>Frequently Asked Questions (FAQ)</h2>
+            </div>
+            <div class="question_field ">
+                <div class="my-5">
+                    <h4>Q1: How can I add a new recipe?</h3>
+                <p>A: To add a new recipe, navigate to the "Add Recipe" page and fill out the required information in the form.</p>
+                </div>
+                <div class="my-5">
+                    <h4>Q2: Can I edit or delete a recipe?</h3>
+                    <p>A: Currently, the ability to edit or delete recipes is not available. This feature may be added in future updates.</p>
+                </div>
+        
+                <!-- Add more FAQ entries as needed -->
+                <div class="my-5">
+    
+                <h4>Q3: How can I contact support?</h3>
+                <p>A: You can reach our support team by visiting the "Contact Us" page and submitting the contact form.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
